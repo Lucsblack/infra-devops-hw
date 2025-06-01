@@ -1,7 +1,7 @@
 # infra-devops-hw
 Teste Técnico - Infraestrutura e DevOps | H&W Publishing
 
-## 🚀 Descrição do Projeto
+##  Descrição do Projeto
 
 ✅ Uma aplicação web simples em **Python Flask** que retorna "Hello World" e a porta de execução.  
 ✅ **Duas instâncias** rodando localmente em portas **5000** e **5001**.  
@@ -114,7 +114,7 @@ Para que o workflow funcione, configure os **Secrets** no repositório:
 
 ---
 
-## 📝 Resumo das Tecnologias
+##  Resumo das Tecnologias
 
 - **Python 3** e **Flask** para aplicação web simples.  
 - **Nginx** como balanceador de carga.  
