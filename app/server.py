@@ -1,11 +1,16 @@
 from flask import Flask
 import os
+import socket
 
 app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return f'Hello World from port {os.environ.get("PORT", 5000)}!'
+    return {
+        "message": "H&W Publishing Load Balanced",
+        "instance": socket.gethostname(),
+        "port": os.environ.get("PORT", 5000)
+    }
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
